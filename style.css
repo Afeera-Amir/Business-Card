@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    font-family: 'Playpen Sans';
+}
+
+#root{
+    margin: 2em;
+    background: #1A1B21;
+    /* color: #F5F5F5; */
+    max-width: 420px;
+    margin: auto;
+}
+/* Info Section Styles */
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+.name{
+    color: white;
+    font-size: 1.7em;
+}
+.job{
+    color: #F3BF99;
+    font-weight: normal;
+    font-size: .9em;
+}
+.website{
+    color: #F5F5F5;
+    font-weight: normal;
+    font-size: .7em;
+}
+.buttons{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin: 1em 0;
+} 
+.buttons > a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: .5em .8em;
+    border-radius: .3em;
+}
+
+.email{
+    background: white;
+    color: #1E1F26;
+    margin: 0 1em;
+}
+
+.linkedin{
+    background: #5093E2;
+    color: #FFFFFF
+}
+.fa{
+   margin-right: .2em; 
+}
+
+/* Section Styles */
+
+section{
+    padding: 1em 1.5em;
+}
+h3{
+    color: #F5F5F5;
+    margin-bottom: .3em;
+}
+p{
+    color: #DCDCDC;
+    font-size: .9em;
+    line-height: 1.3em;
+}
+ footer{
+     background: #161619;
+     margin-top: 1em; 
+     padding: .5em;
+     color: #918E9B;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 1.7em;
+ }
